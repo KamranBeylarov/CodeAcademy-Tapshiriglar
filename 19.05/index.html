@@ -1,0 +1,50 @@
+<html>
+<head>
+	<SCRIPT TYPE="text/javascript" src="main.js"></SCRIPT>
+	<style>
+		.mainDiv{
+			background-color: red;
+	
+				
+		}
+		.mainDiv div{
+			height: 100px;
+			background-color: green;
+			display: inline-block;
+		}
+		
+
+
+
+
+
+	</style>
+</head>
+<body>
+	
+	<script>
+
+
+	
+	function a(width,divler,sutunlar,margin){
+		var mainDiv=document.createElement("div");
+		mainDiv.setAttribute("class","mainDiv"); 
+		mainDiv.style.width=width+"px";
+		document.body.appendChild(mainDiv);
+
+
+		for(i=0;i<divler;i++){
+			var divs=document.createElement("div");
+			mainDiv.appendChild(divs);
+			divs.style.margin=margin+"px";
+	hesab = (width/sutunlar)-2*margin;
+		divs.style.width=hesab+"px";
+		}	
+		
+	}
+
+	a(800,20,5,5);
+
+	</script>
+</body>
+</html>
