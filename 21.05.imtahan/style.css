@@ -1,0 +1,56 @@
+.container{
+	width: 800px;
+	height: 1000px;
+	background-color: white;
+	margin: auto
+
+}
+.header{
+	margin-top: 25px;
+}
+h1{
+
+}
+.text1{
+	width:800px;
+	height: 50px;
+	background-color: red;
+	
+}	
+.textbox1{
+	width:800px;
+	height: 80px;
+	background-color: white;
+	margin-top: 10px;
+	border:2px solid black;
+}
+.textch1{
+	float:right;
+	margin-bottom: 10px;
+	background-color: red;
+	color:white;
+
+}
+.textbox2{
+	width:800px;
+	height: 80px;
+	background-color: white;
+	margin-top: 20px;	
+	border:2px solid black;
+}
+.textch2{
+	float: right;
+	background-color: red;
+	color:white;
+}
+.effects{
+	margin-top: 25px;
+}
+.effects button{
+	display: inline;
+	width: 197px;
+	height: 45px;
+	background-color: red;
+	color:white;
+	
+}
